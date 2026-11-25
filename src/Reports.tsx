@@ -138,7 +138,7 @@ function Reports({ orders }: ReportsProps) {
 
   const pendingPercent = (pending / totalStatus) * 100;
   const dispatchedPercent = (dispatched / totalStatus) * 100;
-  const deliveredPercent = (delivered / totalStatus) * 100;
+  
 
   const pieBackground = `conic-gradient(
     #f59e0b 0% ${pendingPercent}%,
