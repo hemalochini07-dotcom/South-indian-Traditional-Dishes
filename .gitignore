@@ -1,0 +1,25 @@
+
+# Environment variables - protect passwords
+.env
+**/.env
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+frontend/dist/
+
+# Editor files
+.vscode/
+
+# Logs
+*.log
